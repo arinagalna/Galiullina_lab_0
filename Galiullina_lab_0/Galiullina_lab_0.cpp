@@ -6,6 +6,12 @@
 int main()
 {
     std::cout << "Hello World!\n";
+    int a;
+    std::cout << "Input num: ";
+    std::cin >> a;
+    std::cout << a<<std::endl;
+    return 0;
+
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
